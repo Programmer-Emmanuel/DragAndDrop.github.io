@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="plus-symbol-button.png" type="image/x-icon">
+    <title>Drag and Drop</title>
+</head>
+<body>
+
+
+    <div id="dropZone" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="add.png" alt="">
+        <h4>Deposez votre image pour voir et vos fichiers à télécharger...</h4>
+    </div>
+
+    <img id="preview" alt="Aperçu de l'image">
+
+    <script src="script.js"></script>
+</body>
+</html>

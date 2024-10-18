@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+#dropZone {
+    width: 300px;
+    height: 300px;
+    background-color: lightgrey;
+    text-align: center;
+    border: 2px dashed rgb(164, 164, 164);
+    font-size: 16px;
+    margin: 125px auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#dropZone img {
+    margin-top: 100px ;
+    height: 40px;
+}
+
+
+#dropZone:hover {
+    background-color: rgb(180, 180, 180);
+    cursor: pointer;
+    border: 2px dashed rgb(86, 86, 86);
+}
+
+
+#preview {
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 300px;
+    visibility: hidden;
+}
